@@ -1,0 +1,19 @@
+
+/* sticky footer from tutorial
+   see http://ryanfait.com/html5-sticky-footer/layout.css
+*/
+* {
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -50px;
+}
+
+.footer, .push {
+    height: 50px;
+}
