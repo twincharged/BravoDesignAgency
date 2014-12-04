@@ -3,7 +3,7 @@
 
 
 ## Bugs
-
+When using sticky footer the scroll bar appears no matter what.  I believe this is because the sizes are set wrong.
 
 
 ## Other
