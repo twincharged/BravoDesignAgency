@@ -1,0 +1,40 @@
+
+th, td {
+    padding: .5rem 1rem;   
+}
+
+th {
+    width: 10rem;
+}
+
+td {
+    width: 10rem;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;   
+}
+
+table {
+    margin: auto;   
+}
+
+
+@media screen and (min-width: 900px) {
+    
+    #hourly-plans {
+        display: inline-block;
+        margin: auto 1rem auto 2%;
+    }
+    
+    #contractual-plans {
+        display: inline-block;
+        margin: auto 2% auto 1rem;
+    }
+    
+    h3 {
+        margin-top: 0;   
+    }
+    
+}
