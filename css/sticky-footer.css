@@ -1,12 +1,13 @@
 
-/* sticky footer from tutorial
+/* adapted sticky footer from tutorial
    see http://ryanfait.com/html5-sticky-footer/layout.css
 */
-* {
-}
-
 html, body {
     height: 100%;
+}
+
+body {
+    margin: 0 inherit;
 }
 
 .wrapper {
@@ -14,6 +15,10 @@ html, body {
     margin: 0 auto -50px;
 }
 
-.footer, .push {
+.push {
     height: 50px;
+}
+
+.footer {
+    height: 40px;   
 }
