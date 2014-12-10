@@ -28,6 +28,10 @@ html {
     color: black
 }
 
+.active-link {
+    color: yellow;
+}
+
 footer, .footer { /* .footer is for sticky footer, see ricky-gorowsky-style.css */
     border-top: 2px solid black;
     text-align: center;
