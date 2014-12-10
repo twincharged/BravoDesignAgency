@@ -24,12 +24,8 @@ html {
     color: red
 }
 
-.master-navigation li a:visited {
-    color: black
-}
-
 .active-link {
-    color: yellow;
+    color: yellow; /* Or whatever color goes with our design, I just did yellow for now. */
 }
 
 footer, .footer { /* .footer is for sticky footer, see ricky-gorowsky-style.css */
