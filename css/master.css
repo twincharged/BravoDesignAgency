@@ -29,7 +29,7 @@ html {
 }
 
 .active-link {
-    color: yellow; /* Or whatever color goes with our design, I just did yellow for now. */
+    color: yellow !important; /* Or whatever color goes with our design, I just did yellow for now. */
 }
 
 footer, .footer { /* .footer is for sticky footer, see ricky-gorowsky-style.css */
