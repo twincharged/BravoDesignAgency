@@ -16,7 +16,7 @@
 	display: inline-block;
 	position: relative;
 	cursor: pointer;
-	width:24%;
+	width:19%;
 	height: 90%;
 	margin-left: 0.5%;
 	margin-right: 0.5%;
@@ -27,6 +27,16 @@
 #aboutus-widget h1,h2,h3,h4,table {
 	padding-left: 4%;
 	padding-right: 4%;
+}
+
+#aboutus-widget h2 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#aboutus-widget h3 {
+	margin-top: 0;
+	padding-top: 0;
 }
 
 
