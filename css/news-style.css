@@ -1,0 +1,99 @@
+h1 {font-size:4rem;
+margin:0;
+padding:0 .5rem;
+}
+
+h2 {font-size:1.4rem;
+font-family: "Lucida Console", Monaco, monospace;	
+font-weight:700;
+text-align:center;
+}
+
+p {font-size:1rem;
+line-height:1.5rem;
+font-family: Georgia, "Times New Roman", serif;
+}
+
+.title {font-family: 'Arial';
+padding: 1rem;
+text-align:center;
+}
+
+.footer{
+	position:relative;
+	width:100%;
+}
+
+.subtitle {
+   	text-align:center;
+	font-size:1rem;
+	line-height:1.5rem; 
+}
+
+
+
+.content{
+    padding:1rem;
+
+    border:1px solid;
+    overflow:hidden;
+}
+
+.section-text{
+    font-size: 1rem;
+    font-family: Georgia, "Times New Roman", serif
+}
+
+
+
+@media screen and (min-width:320px) {
+	
+	.wrapper{
+	padding-bottom: 60px;
+	}
+}
+
+
+@media screen and (min-width:580px) {
+	
+	
+	.left{
+	margin:.5rem 1%;
+        }
+	
+	.middle{
+	margin:.5rem 1%;
+        }
+        
+        .right{
+        margin:.5rem 1%;    
+        }
+        
+  
+@media screen and (min-width:900px){
+
+	.left{
+	float: left;
+	width:30%;
+	}
+	
+	.middle{
+	float: left;
+	width:30%;
+	}
+        
+        .right{
+        float: left;
+	width:30%;
+	margin:.5rem 1%;    
+        }
+        
+	
+	
+        
+}
+
+@media screen and (min-width:1280px){
+    
+    
+}
