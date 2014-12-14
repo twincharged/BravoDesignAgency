@@ -1,42 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Our Design &amp; Development Agency</title>
+    <title>Bravo Design Agency</title>
     <meta charset="utf-8">
     <meta name="author" content="ETCV team">
     <meta name="description" content="We're a web design agency and we're awesome.">
-    <meta name="keywords" content="design agency project etcv 403">
+    <meta name="keywords" content="bravo design agency project etcv 403">
     <link href="css/grid.min.css" rel="stylesheet" type="text/css">
-    <!-- This grid ^ is a very simple, responsive one. The classes you'd be familiar with are
-         .container, .row, .col-x, .offset-x and .clearfix. It's similar to Bootstrap's except
-         you don't have to specify device size for columns. This means that .col-6 will take up
-         half of the .row on any device except phones, which there is a designated breakpoint for. -->
+    <link href="css/misc.css" rel="stylesheet" type="text/css">
     <link href="css/master.css" rel="stylesheet" type="text/css">
-    <link href="css/sticky-footer.css" rel="stylesheet" type="text/css">
-    <link href="css/index.css" rel="stylesheet" type="text/css"> <!-- Our custom CSS. -->
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   </head>
     
   <body>
-        <div class="wrapper">
-            <header>
-                <ul class="master-navigation">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="team-projects.html">Team Projects</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </header>
+    <header>
+      <div id="logo"><img src="img/bravo.png" alt="Bravo logo."></div>
+      <ul class="master-navigation clearnav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team-projects.html">Team Projects</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </header>
 
-            Here's where we put our landing page!
+    <section id="vid" class="vwrapper">
+      <div class="filter">
+        <h1 id="home-title">Bravo Design Agency</h1>
+      </div>
+      <video id="intvid" autoplay loop muted>
+        <source src="img/highfalls.mp4" type="video/mp4">
+      </video>
+    </section>
 
-            <div class="push"></div>
-        </div>    
-        
-        <div class="footer">
-            <p><small>Final Project for Team Bravo, INFV/ETCV 403, Fall 2014</small></p>
+    <section id="services">
+      <div class="container">
+        <h2 class="home-heading">Services</h2>
+        <div class="row">
+          <div class="col-4">
+            <h3 class="home-vcenter">Design</h3>
+          </div>
+          <div class="col-8 home-text">
+            <p>First and foremost, no agency is as passionate about design as we are. We're meticulous when it comes to pouring over our designs until we can no longer focus. We live by perfectionism and passion for design. We wake up every day, excited to design our customers' projects. We're essentially artists, for your website.</p>
+          </div>
         </div>
-        
-        <script src="js/index.js" type="text/javascript"></script> <!-- Our custom JS. -->
+        <div class="row">
+          <div class="col-8 home-text">
+            <p>Design is a one-trick pony without it's hardworking brother, development. While our eyes work towards our artistic tendencies, our minds work solely twords intelligent code. We're capable of building even the most complex frontend applications. We strive for cost-effectiveness, code robustness, and the purest of customer satisfaction.</p>
+          </div>
+          <div class="col-4">
+            <h3 class="home-vcenter">Development</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="reviews">
+      <div class="container">
+        <h2 class="home-heading">Testimonials</h2>
+        <div id="review-logo">
+          <div class="filter"></div>
+          <img src="img/bravo.png" alt="Our logo again.">
+        </div>
+        <div class="row">
+          <div class="col-8 home-text"><h4>Kerem</h4><p>I'm truly thrilled with the design and development talent of the Bravo Design Agency. They're perfectionists to the highest level and focus on customer satisfaction. I'd recommend them ten times out of ten to anyone looking for a great website.</p></div>
+          <div class="col-4 face"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/kerem/128.jpg" alt="A customer."></div>
+        </div>
+        <br/>
+        <div class="row">
+          <div class="col-4 face"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg" alt="Another customer."></div>
+          <div class="col-8 home-text"><h4>Lexy</h4><p>Bravo has unfailingly delivered extraordinary jobs with the projects I give them. I've worked with them over a dozen times and they've never once failed to impress me with their keen design eye and their ability to complete projects in a timely and cost-effective manner.</p></div>
+        </div>
+        <br/>
+        <div class="row">
+          <div class="col-8 home-text"><h4>Rohi</h4><p>I just. I can't even. Wow. Bravo's done it again. It's hard not to get excited when working with Bravo again. I keep telling myself each time: "There's no way they'll be able to top the last project I gave them". And whadayaknow, they do every time.</p></div>
+          <div class="col-4 face"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/rohixx/128.jpg" alt="A third customer."></div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <footer>
+      <p><small>Final Project for Team Bravo, INFV/ETCV 403, Fall 2014</small></p>
+    </footer>
+    
+    <script src="js/index.js" type="text/javascript"></script> <!-- Our custom JS. -->
   </body>
 </html>
