@@ -24,10 +24,9 @@ a:link, a:visited {
 	color:red;
 }
 
-.wrapper{
-		padding-bottom: 3.5rem;
-		overflow: hidden;
-	}
+section {
+    margin-top: 100px;
+}
 	
 .top-section-title{
 	margin-top: 5rem;
