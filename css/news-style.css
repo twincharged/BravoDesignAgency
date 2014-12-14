@@ -71,9 +71,17 @@ text-align:center;
         .right{
         margin:.5rem 1%;    
         }
+
 }       
   
 @media screen and (min-width:900px){
+	.news{
+	display: inline-block;
+	}
+
+	.content{
+	height: 300px
+	}
 
 	.left{
 	float: left;
@@ -91,9 +99,6 @@ text-align:center;
 	width:30%;
 	}
 	
-	.news{
-	display: inline-block;
-	}
 }
 
 @media screen and (min-width:1070px){
@@ -105,6 +110,6 @@ text-align:center;
 	
 @media screen and (min-width:1135px){
 	.content{
-		height: auto;
+		height: 233px;
 	}	
 }
