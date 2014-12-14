@@ -29,6 +29,10 @@
 	padding-right: 4%;
 }
 
+#aboutus-widget h3 {
+	font-size: 13px;
+}
+
 #aboutus-widget h2 {
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -43,6 +47,11 @@
 #aboutus-widget section img {
 	width: 100%;
 }
+
+#aboutus-widget table {
+	font-size: 13px;
+}
+
 #aboutus-widget table th {
 	text-align: left;
 	vertical-align: top;
