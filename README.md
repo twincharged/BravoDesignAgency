@@ -1,6 +1,6 @@
 ## Progress
 Got the navbar. The misc.css was missing. - Joseph
-
+Ah ok, didnt see that css. Thanks, - Arthur
 
 ## Bugs
 
