@@ -214,7 +214,7 @@ footer small {
   }
 }
 
-@media (min-width: 650px) and (max-width: 800px) {
+@media (min-width: 650px) and (max-width: 980px) {
   .master-navigation li a {
     padding: 0 8px 0 8px;
     font-size: 1rem;
