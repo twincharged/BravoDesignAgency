@@ -8,7 +8,7 @@ Ah ok, didnt see that css. Thanks, - Arthur
 
 **Carly**: Can we toss the branch "carly-working"? - Joseph
 
-**Arthur**: If you unlink your own stylesheet, the page looks very vertical, but fairly normal. It may be easier to work backwards like that rather than forwards to find the problem.
+**Arthur**: If you unlink your own stylesheet, the page looks very vertical, but fairly normal. It may be easier to work backwards like that rather than forwards to find the problem. Also, if you're experiencing weird scrolling issues, it's got something to do with the footer. I had the same issues, so I removed the footer border and it works fine again. Overflow: hidden didn't work either, so I don't know what gives.
 
 ## Bugs
 
