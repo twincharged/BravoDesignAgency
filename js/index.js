@@ -1,6 +1,12 @@
-var loc = window.location.pathname.slice(6)||"index.html",
-    actives = document.querySelectorAll("a[href='"+loc+"']")
+var loc = window.location.pathname.split("/").slice(-1),
+    actives = document.querySelectorAll("header a[href]")
+
+loc = (loc[0] == "") ? "index.html" : loc
 
 for (var i=0;i<actives.length;i++) {
-  actives[i].classList.add("active-link")
+  var a = actives[i]
+  a.classList.add("hfx")
+  if (a.getAttribute("href") == loc) {
+    a.classList.add("active")
+  }
 }

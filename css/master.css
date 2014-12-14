@@ -1,39 +1,360 @@
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  text-align: center;
+  font-family: Lato;
+}
 
-html {
-    background-color: lightblue; /*rgb(173,216,230)*/
+h1,h2,h3,h4,h5,h6 {
+    font-family: Ubuntu;
+    font-weight: 600;
+}
+h1 {font-size: 3rem;}
+h2 {font-size: 2.5rem;}
+h3 {font-size: 1.8rem;}
+h4 {font-size: 1.5rem;}
+h5 {font-size: 1.3rem;}
+h6 {font-size: 1.1rem;}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+header {
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height: 60px;
+    z-index: 25;
+    position: fixed;
+    background: black;
+    padding: 0 20px 0 20px;
 }
 
 .master-navigation {
     margin: 0;
-    padding: 1rem 0rem;
-    background-color: rgb(150,200,200);
-    
+    height: 100%;
+    list-style: none;
+    background-color: inherit;    
+}
+
+.master-navigation {
+    display: inline-block;
+    float: right;
+}
+
+#logo {
+    float: left;
+    color: white;
+    height: 100%;
+    width: 40px;
+    padding: 5px 0 5px 0;
+}
+
+#logo img {
+  height: 100%;
+  width: auto;
 }
 
 .master-navigation li {
+    height: 100%;
     display: inline-block;
+    margin: 0px -2px 0px -2px;
 }
 
 .master-navigation li a {
-    padding: 0rem .4rem;
+    padding: 0 16px 0 16px;
+    line-height: 60px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: Ubuntu;
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: white;
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -ms-transition: color .5s ease;
+    transition: color .5s ease;
+}
+
+.master-navigation li a:hover,
+.master-navigation li a.active {
+  color: #66CCFF;
+}
+
+/* Home */
+#vid {
+  height: 52vw;
+}
+
+.vwrapper{
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.vwrapper #intvid {
+    margin-top: -30px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.vwrapper .filter {
+  position: absolute;
+
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+  height: 100%;
+}
+#home-title {
+  line-height: 1100%;
+  font-size: 4rem;
+  color: white;
+}
+
+.home-heading {
+  margin: 75px 0 75px 0;
+}
+
+section {
+  position: relative;
+  padding-bottom: 75px;
+}
+section .row {
+  padding: 30px 0 30px 0;
+}
+
+.custom-space {
+  margin-top: 25px;
+}
+
+.home-text {
+  line-height: 150%;
+  font-size: 1.2rem;
+}
+
+.home-vcenter {
+  line-height: 380%;
+}
+
+#reviews {
+  background: black;
+  color: white;
+  width: 100%;
+  z-index: -10;
+}
+
+#review-logo {
+  position: absolute;
+  height: 575px;
+  width: 100%;
+  z-index: -1;
+}
+
+#review-logo .filter {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  background: rgba(0,0,0,0.88)
+}
+
+#review-logo img {
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.face img {
+  border-radius: 64px;
+}
+
+
+footer {
+    height: 20px;
+}
+
+footer small {
+  font-family: Lato;
+}
+
+/* media < 650 = mobile menu */
+
+
+
+@media (min-width: 300px) and (max-width: 650px) {
+  .master-navigation li a {
+    padding: 0 3px 0 3px;
+    font-size: .75rem;
+  }
+  .vwrapper .filter {
+    height: 50vw;
+  }
+  #home-title {
+    line-height: 580%;
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 800px) {
+  .master-navigation li a {
+    padding: 0 8px 0 8px;
     font-size: 1rem;
-    font-style: bold;
+  }
+  #home-title {
+    line-height: 800%;
+    font-size: 3rem;
+  }
 }
 
-.master-navigation li a:link {
-    color: #FF0033;
+@media (max-width: 380px) {
+  .master-navigation li a {
+    padding: 0 1px 0 1px;
+    font-size: .6rem;
+  }
+  #home-title {
+    line-height: 400%;
+    font-size: 2rem;
+  }
 }
 
-.master-navigation li a:visited {
-    color: #CC0033;
+
+
+
+@-webkit-keyframes bud {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+@-moz-keyframes bud {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+@-ms-keyframes bud {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+@keyframes bud {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
 
-.active-link {
-    color: yellow !important;
-    /* Or whatever style goes with our design, I just did yellow text for now. Sorry 'bout the evil override. */
+.vwrapper .scroll {
+  position: absolute;
+  margin: 0 0 50px -20px;
+  bottom: 0;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);
+  background-size: contain;
 }
 
-footer, .footer { /* .footer is for sticky footer, see ricky-gorowsky-style.css */
-    border-top: 2px solid black;
-    text-align: center;
+.bud {
+  -webkit-animation: bud 2s infinite;
+  -moz-animation: bud 2s infinite;
+  -ms-animation: bud 2s infinite;
+  animation: bud 2s infinite;
+}
+
+
+
+
+/* Misc */
+.master-navigation * {
+    /* Safari transform bug fix */
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+}
+
+.hfx {
+    overflow: hidden;
+}
+/* Heads up: double colon pseudo elements don't work with old IE versions */
+.hfx::before {
+  /* Overcompensated with 7px and hidden overflow
+     due to slight height shrinkage in chrome */
+  border-bottom: 7px solid white;
+  -webkit-transform: scale(0,1);
+  -moz-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+.hfx::before{
+  content: "";
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: -4px;
+  left: 0px;
+  -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease , border 0.5s ease;
+  -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease , border 0.5s ease;
+  -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease , border 0.5s ease;
+  transition: transform 0.5s ease, opacity 0.5s ease , border 0.5s ease;
+}
+.hfx:hover::before,
+.hfx.active::before {
+  opacity: 1;
+  border-color: #66CCFF;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
