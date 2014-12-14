@@ -1,12 +1,12 @@
 ## Progress
-Arthur: For your page, remember to include the index.js, copy the navbar from another page, and link the two fonts that are linked in the other pages (from Google Fonts - Ubuntu & Lato).
-
-Got it, thanks! -Arthur
+I copied the header, fonts, and js lines over, but the header doesn't seem to work correctly on team-projects.html.
+- Arthur
 
 
 ## Bugs
 
 Due to Safari's aggressive memory maintainence, (even with preserve-3d & backface-visibility) I'm unable to force sufficient hardware acceleration to allow instant redirects via navbar links (due to anchor hover effect | it's a delay of about 200ms | only Safari on a MBA 2014). It works perfectly in Chrome, FF, IE, etc.
+
 
 
 
