@@ -29,6 +29,7 @@ section {
 
 .top{
 	overflow: hidden;
+	padding-bottom: 2rem;
 }
 
 .section-image  figcaption {
