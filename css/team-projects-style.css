@@ -43,8 +43,9 @@ section {
 	margin-right: 2.5rem; 
 }
 
-.footer{
+footer{
 	clear: both;
+	height: 10px;
 }
 
 .top-left{
