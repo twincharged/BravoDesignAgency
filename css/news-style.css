@@ -59,9 +59,7 @@ text-align:center;
 
 
 @media screen and (min-width:580px) {
-	
-
-	
+		
 	.left{
 	margin:.5rem 1%;
         }
@@ -73,7 +71,7 @@ text-align:center;
         .right{
         margin:.5rem 1%;    
         }
-        
+}       
   
 @media screen and (min-width:900px){
 
@@ -99,10 +97,12 @@ text-align:center;
 }
 
 @media screen and (min-width:1070px){
+	
 	.content{
 		height: 300px;
 	}
-
+}
+	
 @media screen and (min-width:1135px){
 	.content{
 		height: auto;
