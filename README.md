@@ -6,9 +6,9 @@ Got the navbar. The misc.css was missing. - Joseph
 
 Ah ok, didnt see that css. Thanks, - Arthur
 
-Carly: Can we toss the branch "carly-working"? - Joseph
+*Carly*: Can we toss the branch "carly-working"? - Joseph
 
-Arthur: If you unlink your own stylesheet, the page looks very vertical, but fairly normal. It may be easier to work backwards like that rather than forwards to find the problem.
+*Arthur*: If you unlink your own stylesheet, the page looks very vertical, but fairly normal. It may be easier to work backwards like that rather than forwards to find the problem.
 
 ## Bugs
 
