@@ -27,7 +27,7 @@ function scaleContentToSize() {
 				currentHeight = currentHeight + picHeight;
 			}
 			if ( childNodes[j].tagName == "H2") {
-				nameHeight = childNodes[j].scrollHeight + 60;
+				nameHeight = childNodes[j].scrollHeight + 45;
 				if (currentHeight + nameHeight < canvasHeight) {
 					currentHeight = currentHeight + nameHeight;
 					childNodes[j].style.opacity = '1.0';
@@ -39,7 +39,7 @@ function scaleContentToSize() {
 				}
 			}
 			if ( childNodes[j].tagName == "H3") {
-				townHeight = childNodes[j].scrollHeight + 10;
+				townHeight = childNodes[j].scrollHeight;
 				if (currentHeight + townHeight < canvasHeight) {
 					currentHeight = currentHeight + townHeight;
 					childNodes[j].style.opacity = '1.0';
@@ -51,7 +51,7 @@ function scaleContentToSize() {
 				}
 			}
 			if ( childNodes[j].tagName == "TABLE") {
-				tableHeight = childNodes[j].scrollHeight + 20;
+				tableHeight = childNodes[j].scrollHeight;
 				if (currentHeight + tableHeight < canvasHeight) {
 					currentHeight = currentHeight + tableHeight;
 					childNodes[j].style.opacity = '1.0';
