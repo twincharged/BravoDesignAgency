@@ -1,6 +1,6 @@
 #aboutus-widget {
 	width: 95%;
-	height: 70%;
+	height: 80%;
 	position: absolute;
 	left:0;
 	right: 0;
@@ -46,4 +46,11 @@
 #aboutus-widget table th {
 	text-align: left;
 	vertical-align: top;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: lightblue;
 }
