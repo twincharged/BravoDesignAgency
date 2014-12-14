@@ -1,6 +1,8 @@
 ## Progress
 Arthur: For your page, remember to include the index.js, copy the navbar from another page, and link the two fonts that are linked in the other pages (from Google Fonts - Ubuntu & Lato).
 
+Got it, thanks! -Arthur
+
 
 ## Bugs
 
