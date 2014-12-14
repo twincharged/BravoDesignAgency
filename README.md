@@ -8,6 +8,8 @@ Ah ok, didnt see that css. Thanks, - Arthur
 
 Carly: Can we toss the branch "carly-working"? - Joseph
 
+Arthur: If you unlink your own stylesheet, the page looks very vertical, but fairly normal. It may be easier to work backwards like that rather than forwards to find the problem.
+
 ## Bugs
 
 Due to Safari's aggressive memory maintainence, (even with preserve-3d & backface-visibility) I'm unable to force sufficient hardware acceleration to allow instant redirects via navbar links (due to anchor hover effect | it's a delay of about 200ms | only Safari on a MBA 2014). It works perfectly in Chrome, FF, IE, etc. - Joseph
