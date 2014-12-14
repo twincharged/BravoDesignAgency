@@ -205,9 +205,6 @@ footer small {
     padding: 0 3px 0 3px;
     font-size: .75rem;
   }
-  .vwrapper .filter {
-    height: 50vw;
-  }
   #home-title {
     line-height: 580%;
     font-size: 2.5rem;
