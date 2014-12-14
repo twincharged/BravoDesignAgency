@@ -61,9 +61,21 @@
 	vertical-align: top;
 }
 
-.footer {
+th {
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 1.6rem;
+}
+
+.wrapper a {
+	color: #66CCFF;
+	font-size: 1rem;
+}
+
+footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	background-color: lightblue;
 }

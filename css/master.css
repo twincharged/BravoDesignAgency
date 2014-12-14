@@ -88,6 +88,10 @@ header {
   color: #66CCFF;
 }
 
+.wrapper {
+  margin-top: 75px;
+}
+
 /* Home */
 #vid {
   height: 52vw;
@@ -182,7 +186,12 @@ section .row {
 
 
 footer {
+    border-top: 4px solid black;
     height: 20px;
+}
+
+footer.no-border {
+    border-top: none;
 }
 
 footer small {
