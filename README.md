@@ -1,6 +1,6 @@
 ## Progress
 
-Prof Lyman: The home page uses an mp4 video. If you want, I can create a fallback ogg (if you're using a different browser than Chrome, especially FF).
+Prof Lyman: The home page uses an mp4 video. If you want, I can create a fallback ogg (if you're using a different browser than Chrome, especially FF). And the little bobbing arrow on the home page isn't Flash, it's @keyframes. I tried to make it fairly subtle and not annoying.
 
 Got the navbar. The misc.css was missing. - Joseph
 Ah ok, didnt see that css. Thanks, - Arthur
