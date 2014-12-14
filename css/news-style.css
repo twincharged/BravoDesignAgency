@@ -51,11 +51,16 @@ text-align:center;
 	.wrapper{
 	padding-bottom: 60px;
 	}
+
+	.news{
+	padding-top: 1rem;
+	}
 }
 
 
 @media screen and (min-width:580px) {
 	
+
 	
 	.left{
 	margin:.5rem 1%;
@@ -75,6 +80,7 @@ text-align:center;
 	.left{
 	float: left;
 	width:30%;
+	padding-left: 1.3rem;
 	}
 	
 	.middle{
@@ -85,15 +91,20 @@ text-align:center;
         .right{
         float: left;
 	width:30%;
-	margin:.5rem 1%;    
-        }
-        
+	}
 	
-	
-        
+	.news{
+	display: inline-block;
+	}
 }
 
-@media screen and (min-width:1280px){
-    
-    
+@media screen and (min-width:1070px){
+	.content{
+		height: 300px;
+	}
+
+@media screen and (min-width:1135px){
+	.content{
+		height: auto;
+	}	
 }
