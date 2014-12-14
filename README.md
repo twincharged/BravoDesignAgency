@@ -1,6 +1,5 @@
 ## Progress
-I copied the header, fonts, and js lines over, but the header doesn't seem to work correctly on team-projects.html.
-- Arthur
+I'll mess around with it real quick. - Joseph
 
 
 ## Bugs
