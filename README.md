@@ -1,5 +1,5 @@
 ## Progress
-I'll mess around with it real quick. - Joseph
+Got the navbar. The misc.css was missing. - Joseph
 
 
 ## Bugs
