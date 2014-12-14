@@ -14,6 +14,7 @@ The logo was done by me: Joseph
 The UI faces on the landing page are open-source for non-commercial: http://uifaces.com
 The landing video is open-source (Creative Commons): http://www.videvo.net/video/high-falls-time-lapse/456
 The faces in the about section are our own.
+The arrow on the landing page is open source and found here: http://codepen.io/dodozhang21/pen/siKtp (The code's not quite the same)
 
 We'll leave each other notes about our progress/bugs in this readme.
 
